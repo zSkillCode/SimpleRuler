@@ -1,0 +1,6 @@
+name: SimpleRuler
+main: net.skillcode.simpleruler.SimpleRuler
+version: 1.0
+author: SkillCode
+commands:
+  ruler:
