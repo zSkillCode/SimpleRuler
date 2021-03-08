@@ -25,7 +25,7 @@ public class RulerCommand implements CommandExecutor {
         final Player player = (Player) commandSender;
 
         if (!player.hasPermission(Constants.COMMAND_PERMISSION)) {
-            player.sendMessage(javaPlugin.getServer().getPluginCommand("ruler").getPermissionMessage());
+            player.sendMessage(javaPlugin.getServer().getPluginCommand("ban").getPermissionMessage());
             return true;
         }
 
